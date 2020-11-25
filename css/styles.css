@@ -1,0 +1,125 @@
+.linha{
+    border-color: black;
+    max-width: 25.25rem;
+    border-width: 0.2rem;
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url("fonts/star_jedi/starjedi/Starjedi.ttf")
+}
+.font-nome {
+    color: #000000;
+    font-family: Starjedi;
+}
+
+.borda_texto {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffee07;
+    font-size: 3em; color: black;
+}
+
+.font-baixo{
+    font-family: Starjedi;
+
+}
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: url("../img/galaxia2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.btn-primary {
+  color: rgb(0, 0, 0);
+  background-color: #ffee07;
+  border-color: #ffee07;
+}
+
+.bg-primary {
+    background-color: #ffee07 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #ffee07 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fffb00bd;
+    border-color: #fffb00bd;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+    color: #ffee07;
+}
+  
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #ffee07 !important;
+}
+
+#mainNav.navbar-scrolled .navbar-brand:hover {
+    color: #ffee07;
+}
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #ffee07;
+}
+
+a {
+    color: #ffee07;
+    text-decoration: none;
+    background-color: transparent;
+}
+  
+  a:hover {
+    color: #ffee07;
+    text-decoration: underline;
+}
+
+hr.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #ffee07;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: rgb(0, 0, 0);
+    background: rgba(219, 205, 205, 0.692);
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    text-align: center;
+  }
+
+.text-primary {
+    color: #ffee07 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+    color: #d6370c !important;
+}
